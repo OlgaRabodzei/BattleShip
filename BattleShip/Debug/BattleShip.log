@@ -1,0 +1,39 @@
+﻿Построение начато 04.04.2015 14:33:48.
+     1>Проект "C:\Users\User\Documents\Visual Studio 2010\Projects\BattleShip\BattleShip\BattleShip.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\BattleShip.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         D:\VisualStudio2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BattleShip.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Computer.cpp
+         Computer.cpp
+     1>c:\users\user\documents\visual studio 2010\projects\battleship\battleship\computer.cpp(20): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\users\user\documents\visual studio 2010\projects\battleship\battleship\computer.cpp(28): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 d:\visualstudio2010\vc\include\stdlib.h(843): см. объявление "_sleep"
+     1>c:\users\user\documents\visual studio 2010\projects\battleship\battleship\computer.cpp(30): warning C4996: '_sleep': This function or variable has been superceded by newer library or operating system functionality. Consider using Sleep instead. See online help for details.
+                 d:\visualstudio2010\vc\include\stdlib.h(843): см. объявление "_sleep"
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         D:\VisualStudio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\Visual Studio 2010\Projects\BattleShip\Debug\BattleShip.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BattleShip.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\User\Documents\Visual Studio 2010\Projects\BattleShip\Debug\BattleShip.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\Visual Studio 2010\Projects\BattleShip\Debug\BattleShip.lib" /MACHINE:X86 Debug\BattleShip.exe.embed.manifest.res
+         Debug\BattleShip.obj
+         Debug\Computer.obj
+         Debug\Field.obj
+         Debug\Game.obj
+         Debug\Human.obj
+         Debug\Player.obj
+         Debug\Ship.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\BattleShip.exe.embed.manifest" /manifest Debug\BattleShip.exe.intermediate.manifest
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         Для всех выходных данных обновления не требуется.
+         BattleShip.vcxproj -> C:\Users\User\Documents\Visual Studio 2010\Projects\BattleShip\Debug\BattleShip.exe
+       FinalizeBuildStatus:
+         Файл "Debug\BattleShip.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\BattleShip.lastbuildstate".
+     1>Построение проекта "C:\Users\User\Documents\Visual Studio 2010\Projects\BattleShip\BattleShip\BattleShip.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.56
